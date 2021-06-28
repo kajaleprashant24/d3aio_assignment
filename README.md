@@ -1,6 +1,6 @@
 # d3aio_assignment
-# cypress-cucumber-example
-Initial exaassignment of using Cypress with Cucumber.
+# cypress-cucumber-bdd
+Initial assignment of using Cypress with Cucumber.
 
 
 # Run example tests
