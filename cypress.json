@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://www.d3a.io",
+  "viewportHeight": 1000,
+  "viewportWidth": 1280,
+  "defaultCommandTimeout": 100000,
+  "pageLoadTimeout": 100000,
+  "firefoxGcInterval": null,
+  "retries": {
+    "runMode": 4,
+    "openMode": 3
+  },
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}"
+}

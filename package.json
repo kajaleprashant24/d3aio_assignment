@@ -1,0 +1,33 @@
+{
+  "name": "d3io-cypress-assignment",
+  "version": "1.0.0",
+  "description": "Assignment cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBrainFamily/cypress-cucumber-example.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Prashant",
+  "license": "MIT",
+  "dependencies": {},
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/**/"
+  },
+  "devDependencies": {
+    "cypress": "^7.6.0",
+    "cypress-cucumber-preprocessor": "^4.1.2",
+    "cypress-localstorage-commands": "^1.4.5",
+    "cypress-mochawesome-reporter": "^2.2.0"
+  }
+}
